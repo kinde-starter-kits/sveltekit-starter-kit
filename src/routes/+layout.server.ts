@@ -1,4 +1,4 @@
-import {kindeAuthClient, type SessionManager} from '@kinde-oss/kinde-svele-kit-sdk';
+import {kindeAuthClient, type SessionManager} from '@kinde-oss/kinde-sveltekit-sdk';
 import type {RequestEvent} from '@sveltejs/kit';
 
 export async function load({request}: RequestEvent) {
