@@ -1,4 +1,4 @@
-import {kindeAuthClient} from '@kinde-oss/kinde-svele-kit-sdk';
+import {kindeAuthClient} from '@kinde-oss/kinde-sveltekit-sdk';
 import type {SessionManager} from '@kinde-oss/kinde-typescript-sdk';
 import type {RequestEvent} from '@sveltejs/kit';
 
