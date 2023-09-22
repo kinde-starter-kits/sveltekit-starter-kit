@@ -49,6 +49,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@kinde-oss/kinde-svele-kit-sdk": "file:kinde-oss-kinde-sveltekit-sdk-1.2.0.tgz"
+		"@kinde-oss/kinde-sveltekit-sdk": "file:kinde-oss-kinde-sveltekit-sdk-1.2.0.tgz"
 	}
 }

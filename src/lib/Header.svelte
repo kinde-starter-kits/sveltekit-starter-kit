@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { UserType } from '@kinde-oss/kinde-svele-kit-sdk';
+	import type {UserType} from '@kinde-oss/kinde-sveltekit-sdk';
 
 	export let user: UserType | null;
 	export let isAuthenticated: boolean;
