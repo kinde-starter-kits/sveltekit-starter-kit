@@ -52,19 +52,11 @@ export async function load({request}: RequestEvent) {
 		});
 	}
 
-	// const config = new Configuration({
-	//     basePath: KINDE_ISSUER_URL
-	// })
+	// const config = await getConfiguration();
 
 	// const apiInstance = new UsersApi(config);
 
-	// const headers = await getHeaders();
-
-	// const users = await apiInstance.getUsers(undefined, {
-	//     headers: {
-	//         ...headers
-	//     }
-	// })
+	// const users = await apiInstance.getUsers();
 	// console.log('users', users);
 
 	return {
