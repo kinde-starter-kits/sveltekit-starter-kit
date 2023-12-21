@@ -20,7 +20,7 @@
 
 			<a
 				class="btn btn-light btn-big"
-				href="https://kinde.com/docs/sdks/nextjs-sdk"
+				href="https://kinde.com/docs/developer-tools/sveltekit-sdk/"
 				target="_blank"
 			>
 				Go to docs
