@@ -12,10 +12,9 @@
 			<div class="profile-blob">
 				<div class="avatar">
 					{user?.given_name}
-					{user?.family_name}
 				</div>
 				<div>
-					<p class="text-heading-2">
+					<p class="text-heading-2 text-capitalize">
 						{user?.given_name}
 						{user?.family_name}
 					</p>
