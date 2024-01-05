@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type {UserType} from '@kinde-oss/kinde-sveltekit-sdk';
+	import type {UserType} from '@kinde-oss/kinde-auth-sveltekit';
 
 	export let user: UserType | null;
 	export let isAuthenticated: boolean;
@@ -12,10 +12,9 @@
 			<div class="profile-blob">
 				<div class="avatar">
 					{user?.given_name}
-					{user?.family_name}
 				</div>
 				<div>
-					<p class="text-heading-2">
+					<p class="text-heading-2 text-capitalize">
 						{user?.given_name}
 						{user?.family_name}
 					</p>

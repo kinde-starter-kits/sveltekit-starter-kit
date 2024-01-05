@@ -1,4 +1,4 @@
-import {kindeAuthClient, type SessionManager} from '@kinde-oss/kinde-sveltekit-sdk';
+import {kindeAuthClient, type SessionManager} from '@kinde-oss/kinde-auth-sveltekit';
 import type {RequestEvent} from '@sveltejs/kit';
 
 export async function load({request}: RequestEvent) {
@@ -26,7 +26,7 @@ export async function load({request}: RequestEvent) {
 			);
 			const enable_dark_theme = await kindeAuthClient.getBooleanFlag(
 				request as unknown as SessionManager,
-				'enable_dark_theme'
+				'is_dark_mode'
 			);
 			const user_limit = await kindeAuthClient.getIntegerFlag(
 				request as unknown as SessionManager,

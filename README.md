@@ -64,29 +64,6 @@ Implement your modifications and then execute the below command to compile the S
 npm run build
 ```
 
-### How to add the SDK into an already existing project
-
-1. Go to the project's root directory, then execute the below command:
-
-   ```bash
-   npm pack <path-to-sdk-folder>
-   // e.g
-   npm pack ~/Documents/Projects/kinde-sveltekit-sdk
-   ```
-
-2. Update the package.json file
-
-   ```json
-   {
-        ...
-        "dependencies": {
-            "@kinde-oss/kinde-sveltekit-sdk": "file:kinde-oss-kinde-sveltekit-sdk-<version>.tgz",
-            ...
-        }
-        ...
-   }
-   ```
-
 ### Set your Callback and Logout URLs
 
 Your user will be redirected to Kinde to authenticate. After they have logged in or registered they will be redirected back to your NextJS application.

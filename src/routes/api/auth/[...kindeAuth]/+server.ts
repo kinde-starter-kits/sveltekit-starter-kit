@@ -1,4 +1,4 @@
-import {handleAuth} from '@kinde-oss/kinde-sveltekit-sdk';
+import {handleAuth} from '@kinde-oss/kinde-auth-sveltekit';
 import type {RequestEvent} from '@sveltejs/kit';
 
 export function GET(requestEvents: RequestEvent) {

@@ -1,4 +1,4 @@
-import {sessionHooks, type Handler} from '@kinde-oss/kinde-sveltekit-sdk';
+import {sessionHooks, type Handler} from '@kinde-oss/kinde-auth-sveltekit';
 
 export const handle: Handler = async ({event, resolve}) => {
 	sessionHooks({event});

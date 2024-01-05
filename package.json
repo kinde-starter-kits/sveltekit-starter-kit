@@ -49,6 +49,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@kinde-oss/kinde-sveltekit-sdk": "file:kinde-oss-kinde-sveltekit-sdk-1.2.0.tgz"
+		"@kinde-oss/kinde-auth-sveltekit": "^1.2.2"
 	}
 }
