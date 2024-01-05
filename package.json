@@ -49,6 +49,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@kinde-oss/kinde-auth-sveltekit": "^1.2.2"
+		"@kinde-oss/kinde-auth-sveltekit": "^1.2.3"
 	}
 }
